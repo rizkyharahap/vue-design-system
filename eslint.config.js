@@ -7,7 +7,7 @@ import vueTsEslintConfig from "@vue/eslint-config-typescript";
 export default [
   {
     name: "app/files-to-lint",
-    files: ["**/*.{ts,mts,tsx,vue}"],
+    files: ["**/*.{ts,mts,vue}"],
   },
 
   {
@@ -27,7 +27,7 @@ export default [
 
   // Rules
   {
-    files: ["src/**/*.{ts,mts,tsx,vue}"],
+    files: ["src/**/*.{ts,mts,vue}"],
 
     languageOptions: {
       parserOptions: {
