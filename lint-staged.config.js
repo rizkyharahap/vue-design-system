@@ -1,6 +1,6 @@
 export default {
   "./src/**/*.{ts,vue}": (stagedFiles) => [
     `prettier --write ${stagedFiles.join(" ")}`,
-    `eslint --fix`,
+    `eslint ${stagedFiles.join(" ")} --fix`,
   ],
 };
