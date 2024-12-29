@@ -1,0 +1,19 @@
+{
+  "include": ["vite.config.*", "vitest.config.*"],
+
+  "compilerOptions": {
+    "lib": ["ES2020"],
+    "module": "ESNext",
+    "types": ["node"],
+    "target": "ES6",
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo"
+  }
+}
