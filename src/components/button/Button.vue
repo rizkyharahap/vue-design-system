@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { baseClass, type ButtonProps, buttonSizes, buttonVariants } from ".";
+import { buttonClass, type ButtonProps, buttonSizes, buttonVariants } from ".";
 
 withDefaults(defineProps<ButtonProps>(), {
   variant: "default",
@@ -9,7 +9,7 @@ withDefaults(defineProps<ButtonProps>(), {
 </script>
 <template>
   <button
-    :class="`${baseClass} ${buttonSizes[size]} ${buttonVariants[variant][color]}`"
+    :class="`${buttonClass} ${buttonSizes[size]} ${buttonVariants[variant][color]}`"
   >
     <slot />
   </button>

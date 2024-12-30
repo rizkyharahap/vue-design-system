@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { baseClass, type InputProps, inputSizes, inputVariants } from ".";
+import { inputClass, type InputProps, inputSizes, inputVariants } from ".";
 
 withDefaults(defineProps<InputProps>(), {
   variant: "default",
@@ -11,6 +11,6 @@ withDefaults(defineProps<InputProps>(), {
   <input
     type="text"
     id="large-input"
-    :class="` ${inputSizes[size]} ${inputVariants[variant]} ${baseClass}`"
+    :class="`${inputClass} ${inputSizes[size]} ${inputVariants[variant]}`"
   />
 </template>

@@ -1,6 +1,6 @@
 import type { ButtonHTMLAttributes } from "vue";
 
-export const baseClass = `inline-flex items-center rounded-lg font-medium focus:outline-none focus:ring-2 transition-colors disabled:pointer-events-none disabled:opacity-60`;
+export const buttonClass = `inline-flex items-center rounded-lg font-medium focus:outline-none focus:ring-2 transition-colors disabled:pointer-events-none disabled:opacity-60`;
 
 export const buttonVariants = {
   default: {
