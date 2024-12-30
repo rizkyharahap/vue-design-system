@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { baseClass, type LabelProps, labelVariants } from ".";
+import { labelClass, type LabelProps, labelVariants } from ".";
 
 withDefaults(defineProps<LabelProps>(), {
   variant: "default",
@@ -7,7 +7,7 @@ withDefaults(defineProps<LabelProps>(), {
 </script>
 
 <template>
-  <label :class="`${baseClass} ${labelVariants[variant]}`">
+  <label :class="`${labelClass} ${labelVariants[variant]}`">
     <slot />
   </label>
 </template>

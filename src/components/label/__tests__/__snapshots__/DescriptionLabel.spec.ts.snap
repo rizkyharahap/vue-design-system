@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DescriptionLabel > match snapshot 1`] = `"<p class="mt-2 text-sm text-gray-900 dark:text-white">descriptionLabel</p>"`;
