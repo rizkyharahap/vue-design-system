@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input Group > match snapshot 1`] = `
+"<div class="relative">
+  <div class="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3.5">leftIcon</div>children<div class="pointer-events-none absolute inset-y-0 end-0 flex items-center pe-3.5">rightIcon</div>
+</div>"
+`;

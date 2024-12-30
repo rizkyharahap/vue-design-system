@@ -1,4 +1,4 @@
-import type { InputHTMLAttributes } from "vue";
+import type { HTMLAttributes, InputHTMLAttributes } from "vue";
 
 export const baseClass = `block w-full rounded-lg border disabled:pointer-events-none disabled:opacity-60`;
 
@@ -16,9 +16,12 @@ export const inputSizes = {
 };
 export type InputSizes = keyof typeof inputSizes;
 
-export interface InputPropsProps extends /* @vue-ignore */ InputHTMLAttributes {
+export interface InputProps extends /* @vue-ignore */ InputHTMLAttributes {
   variant?: InputVariants;
   size?: InputSizes;
 }
 
+export type InputGroupProps = HTMLAttributes;
+
 export { default as Input } from "./Input.vue";
+export { default as InputGroup } from "./InputGroup.vue";

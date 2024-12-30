@@ -1,12 +1,7 @@
 <script setup lang="ts">
-import {
-  baseClass,
-  type ButtonPropsProps,
-  buttonSizes,
-  buttonVariants,
-} from ".";
+import { baseClass, type ButtonProps, buttonSizes, buttonVariants } from ".";
 
-withDefaults(defineProps<ButtonPropsProps>(), {
+withDefaults(defineProps<ButtonProps>(), {
   variant: "default",
   size: "normal",
   color: "blue",

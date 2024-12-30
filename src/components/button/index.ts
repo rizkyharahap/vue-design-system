@@ -30,8 +30,7 @@ export const buttonSizes = {
 };
 export type ButtonSizes = keyof typeof buttonSizes;
 
-export interface ButtonPropsProps
-  extends /* @vue-ignore */ ButtonHTMLAttributes {
+export interface ButtonProps extends /* @vue-ignore */ ButtonHTMLAttributes {
   variant?: ButtonVariants;
   size?: ButtonSizes;
   color?: ButtonColors;

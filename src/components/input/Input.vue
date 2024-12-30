@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { baseClass, type InputPropsProps, inputSizes, inputVariants } from ".";
+import { baseClass, type InputProps, inputSizes, inputVariants } from ".";
 
-withDefaults(defineProps<InputPropsProps>(), {
+withDefaults(defineProps<InputProps>(), {
   variant: "default",
   size: "normal",
 });
